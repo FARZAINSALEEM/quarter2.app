@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  nav {
+    margin-top: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+    color: #4CAF50;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    color: #4CAF50;
+  }
+  
+  #contact p {
+    margin: 0.5rem 0;
+  }
+  
+  header, nav, section {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  /* Profile Picture Styling */
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 1rem;
+    object-fit: cover;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    nav a {
+      display: block;
+      margin: 0.5rem 0;
+      text-align: center;
+    }
+  
+    section {
+      padding: 1rem;
+    }
+  
+    header, nav, section {
+      max-width: 100%;
+    }
+  
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    nav a {
+      font-size: 1rem;
+    }
+  
+    h2 {
+      font-size: 1.25rem;
+    }
+  
+    p, li {
+      font-size: 1rem;
+    }
+  
+    #contact p {
+      font-size: 0.9rem;
+    }
+  
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
